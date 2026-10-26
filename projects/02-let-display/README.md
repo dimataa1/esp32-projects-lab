@@ -42,6 +42,10 @@ Connect the OLED to the ESP32-S3 as follows. The defaults match the original Pro
 
 Use the voltage supported by your OLED module; 3.3 V is the usual choice for ESP32 projects. The program uses I2C address `0x3C`. If your OLED uses `0x3D`, change `OLED_ADDRESS` in `main.py`.
 
+Wiring diagram:
+
+![Project 2 SSD1306 wiring diagram](media/project-2-wiring-diagram.png)
+
 ### Computer software
 
 - Python 3.9 or newer
